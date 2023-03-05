@@ -1,5 +1,8 @@
 '''
-Write a program that solves the eight queens puzzle. The program should solve the more general problem of solving the n queen problem on an n x n chessboard, where n is given as input. The program should output at least one solution if solutions exist, e.g. as below, or that there is no solution.
+Write a program that solves the eight queens puzzle. 
+The program should solve the more general problem of solving the n queen problem on an n x n chessboard, 
+where n is given as input. The program should output at least one solution if solutions exist, 
+e.g. as below, or that there is no solution.
 
 Size of board: 5
 Q....
