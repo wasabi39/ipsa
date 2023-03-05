@@ -1,13 +1,12 @@
-'''One way to structure your program is to define three functions:
+'''
+Write a program that solves the eight queens puzzle. The program should solve the more general problem of solving the n queen problem on an n x n chessboard, where n is given as input. The program should output at least one solution if solutions exist, e.g. as below, or that there is no solution.
 
-valid(r1, c1, r2, c2) that checks if two queens at positions (r1, c1) and (r2, c2) 
-respectively do not threaten each other (i.e. are in different rows and columns and not on the same diagonal).
-
-print_solution(solution) that prints a solution given by a list solution where 
-queen i is at position (i,solution(i)).
-
-solve(solution) is a recursive function that tries to expand a partial solution 
-given by solution for the first len(solution) queens.
+Size of board: 5
+Q....
+..Q..
+....Q
+.Q...
+...Q.
 
 '''
 import time
