@@ -78,7 +78,7 @@ def solve_one_solution(n, solution = 'a'):
         counter += 1
 
 def solve_n_queens():
-    if input("Do you want to print all solutions (y/n)?") in ["yes","y"]:
+    if input("Do you want to print all solutions (y/n)?") in ["yes","y","Y","Yes","yes.","Yes."]:
         n = int(input('Please enter the value of n you want to solve for:'))
         st = time.time()
         solve(n)
